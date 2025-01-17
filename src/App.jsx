@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const apiKey = "AIzaSyDBtnB4n6WVqQdBHucYd4oZiuYSuugPAzk"; // Substitua pela sua chave de API
-  const [place, setPlace] = useState("Space Needle, Seattle WA");
+  const [place, setPlace] = useState("Pau dos Ferros");
   const [inputValue, setInputValue] = useState("");
 
   const url = `https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=${encodeURIComponent(
